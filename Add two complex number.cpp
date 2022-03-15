@@ -10,7 +10,7 @@ class firstComplex{
 		friend class secondComplex;
 		
 };
-class secondComplex{
+class secondComplex{ 
 	public:
 		int real;
 		int img;
@@ -38,7 +38,7 @@ getch();
 }
 int main()
 {
-	add ();
+	add();
 
 	return 0;
 }
