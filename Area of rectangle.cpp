@@ -7,15 +7,10 @@ int areaOfRectangle(int x)
 }
 int main()
 {
-	int length,breadth,height;
-	int area;
-	cout<<"Enter the length: ";
-	cin>>length;
-	cout<<"\nEnter the breadth: ";
-	cin>>breadth;
-	cout<<"\nEnter the height: ";
-	cin>>height;
-	area=length*breadth*height;
+	int length,breadth,area;
+	length=5;
+	breadth=5;
+	area=length*breadth;
 	areaOfRectangle(area);
 	return 0;
 }

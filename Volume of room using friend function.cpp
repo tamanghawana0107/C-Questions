@@ -15,6 +15,7 @@ class calculate{
 		friend int volume(calculate);
 		friend int area(calculate);
 };
+
 int area(calculate t)
 {
 	int s;
