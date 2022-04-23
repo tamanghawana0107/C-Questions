@@ -1,4 +1,8 @@
-//2017 qn 7
+/*2017 qn 7
+Assume that a bank maintains two kinds of accounts for customers, one called as savings account and the other as current account.The savings account
+provides compound interest at the annual rate of 10% .Current account holders get simple interest of 5% per year.Create a class account that stores 
+customer name and account number.From this, derive the classes : cuurent_account and saving_account.Include necessary member functions and calculate 
+the total amount of money in an account for both types of customers.*/
 #include<iostream>
 #include<math.h>
 using namespace std;
