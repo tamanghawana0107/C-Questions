@@ -24,10 +24,10 @@ class Y{
 };
 	void compare(X obj,Y obj1){
 		if(obj.a>obj1.b){
-			cout<<"The largest number is :-"<<obj.a<<endl;
+			cout<<"The largest number is :"<<obj.a<<endl;
 		}
 		else{
-			cout<<"The largest number is :-"<<obj1.b<<endl;
+			cout<<"The largest number is :"<<obj1.b<<endl;
 		}
 		
 	}

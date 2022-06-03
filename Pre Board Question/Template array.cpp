@@ -6,7 +6,8 @@ using namespace std;
 template<typename R>
 void ascen(R a[])
 {
-	R i,j,temp;
+	int i,j;
+	R temp;
 	for(i=0;i<10;i++)
 	{
 		for(j=i+1;j<10;j++)
@@ -36,24 +37,26 @@ int main()
 	cin>>m;
 	if(m==1)
 	{
+		cout<<"\nEnter the numbers :"<<endl;
 		for(k=0;k<10;k++)
 		{
 			cin>>a[k];
-		}	
+		}
+		ascen<int>(a);	
 	}
 	else if(m==2)
 	{
+		cout<<"\nEnter the numbers :"<<endl;
 		for(k=0;k<10;k++)
 		{
 			cin>>a1[k];
 		}
+		ascen<float>(a1);
 	}
 	else
 	{
 		cout<<"\nInvalid choice !!!";
 		goto label1;
 	}
-	ascen<int>(a);
-	//ascen<float>(a1);
 	return 0;
 }
