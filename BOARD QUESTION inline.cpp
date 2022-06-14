@@ -1,5 +1,6 @@
 //Using inline function,WAP to add 2 numbers and return sum.
 #include<iostream>
+
 using namespace std;
 inline void add(int d)
 {

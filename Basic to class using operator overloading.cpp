@@ -10,8 +10,8 @@ class Time{
 
 void Time::display()
 {
-	cout<<hrs<<endl;
-	cout<<min<<endl;
+	cout<<hrs<<"hr "<<":"<<min<<" min"<<endl;
+	
 }
 void Time::operator =(int t)
 {
@@ -24,9 +24,11 @@ int main()
 	int duration;
 	cout<<"Enter the duration :"<<endl;
 	cin>>duration;
-	t1=duration;
+	cout<<"\nBefore the conversion :"<<endl;
 	t1.display();
+	t1=duration;
 	t1.operator =(duration);
+	cout<<"\nAfter the conversion :"<<endl;
 	t1.display();
 	return 0;
 }
